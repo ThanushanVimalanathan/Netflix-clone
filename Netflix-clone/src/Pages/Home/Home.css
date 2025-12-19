@@ -5,6 +5,7 @@
 
 .banner-img{
     width: 100%;
+    height: 1100px;
     mask-image: linear-gradient(to right, transparent, black 75%);
     -webkit-mask-image:linear-gradient(to right, transparent, black 75%);
 }
@@ -14,12 +15,14 @@
     width:100%;
     padding-left: 6%;
     bottom: 0;
+
 }
 
 .caption-img{
-    width: 90%;
-    max-width: 420px;
-    margin-bottom: 30px;
+    width: 100%;
+    max-width: 520px;
+    margin-bottom: 100px;
+    mix-blend-mode:difference;
 
 }
 
